@@ -4,6 +4,7 @@ OBJ = $(patsubst src/%.c, obj/%.o, $(SRC))
 
 run: clean default
 	./$(TARGET)
+	
 
 default: $(TARGET)
 
